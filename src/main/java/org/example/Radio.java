@@ -40,26 +40,26 @@ public class Radio {
         }
         this.currentVolume = currentVolume;
     }
-    public void prev () {
+
+    public void prev() {
         if (currentStation > 0) {
-            currentStation --;
+            currentStation--;
         } else {
             currentStation = 9;
         }
     }
-    public void volumePrev () {
-        if (currentStation > 0) {
-            currentStation --;
+
+    public void volumePrev() {
+        if (currentVolume > 0) {
+            currentVolume--;
         } else {
-            currentStation = 10;
+            currentVolume = 10;
         }
     }
 
-    public void nextVolume() {
+    public void increaseVolume() {
         if (currentVolume < 10) {
-            currentVolume++;
-        } else {
-            currentVolume= 0;
+            currentVolume = currentVolume + 1;
         }
     }
 }
