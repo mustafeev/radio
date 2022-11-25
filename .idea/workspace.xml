@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3f5d838-081c-4392-bcc3-8ad52855f783" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Radio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Radio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RadioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RadioTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,9 +49,53 @@
     <option name="myCommands">
       <command value="mvn verify" />
       <command value="mvn test" />
+      <command value="mnv -e switch" />
+      <command value="-e switch" />
+      <command value="-X switch" />
+      <command value="mvn -X switch" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.RadioTest">
+    <configuration name="RadioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="radio" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RadioTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RadioTest.prev" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="radio" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RadioTest" />
+      <option name="METHOD_NAME" value="prev" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RadioTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="radio" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RadioTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RadioTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="radio" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RadioTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RadioTest.setCurrentVolume" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="radio" />
       <option name="PACKAGE_NAME" value="" />
@@ -69,6 +110,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RadioTest" />
+        <item itemvalue="JUnit.RadioTest.prev" />
+        <item itemvalue="JUnit.RadioTest.test" />
+        <item itemvalue="TestNG.RadioTest" />
         <item itemvalue="TestNG.RadioTest.setCurrentVolume" />
       </list>
     </recent_temporary>
