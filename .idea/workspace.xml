@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3f5d838-081c-4392-bcc3-8ad52855f783" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/radio.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Radio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RadioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RadioTest.java" afterDir="false" />
     </list>
@@ -55,66 +55,64 @@
       <command value="mvn -X switch" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RadioTest">
-    <configuration name="RadioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RadioTest.nextVolume">
+    <configuration name="RadioTest.increaseVolume" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="radio" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RadioTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RadioTest.prev" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="radio" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RadioTest" />
-      <option name="METHOD_NAME" value="prev" />
+      <option name="METHOD_NAME" value="increaseVolume" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RadioTest.nextVolume" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="radio" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RadioTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="METHOD_NAME" value="nextVolume" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RadioTest.regular" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="radio" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RadioTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="METHOD_NAME" value="regular" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioTest.setCurrentVolume" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RadioTest.volume" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="radio" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RadioTest" />
-      <option name="METHOD_NAME" value="setCurrentVolume" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <option name="METHOD_NAME" value="volume" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RadioTest.volumePrev" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="radio" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RadioTest" />
+      <option name="METHOD_NAME" value="volumePrev" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RadioTest" />
-        <item itemvalue="JUnit.RadioTest.prev" />
-        <item itemvalue="JUnit.RadioTest.test" />
-        <item itemvalue="TestNG.RadioTest" />
-        <item itemvalue="TestNG.RadioTest.setCurrentVolume" />
+        <item itemvalue="JUnit.RadioTest.nextVolume" />
+        <item itemvalue="JUnit.RadioTest.volumePrev" />
+        <item itemvalue="JUnit.RadioTest.increaseVolume" />
+        <item itemvalue="JUnit.RadioTest.volume" />
+        <item itemvalue="JUnit.RadioTest.regular" />
       </list>
     </recent_temporary>
   </component>
