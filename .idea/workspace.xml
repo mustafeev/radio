@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e3f5d838-081c-4392-bcc3-8ad52855f783" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RadioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RadioTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +53,7 @@
       <command value="mvn test" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RadioTest.regular">
+  <component name="RunManager" selected="JUnit.RadioTest.prev">
     <configuration name="RadioTest.next" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="radio" />
       <option name="PACKAGE_NAME" value="" />
@@ -106,10 +106,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RadioTest.prev" />
         <item itemvalue="JUnit.RadioTest.regular" />
         <item itemvalue="JUnit.RadioTest.nextVolume" />
         <item itemvalue="JUnit.RadioTest.prevVolume" />
-        <item itemvalue="JUnit.RadioTest.prev" />
         <item itemvalue="JUnit.RadioTest.next" />
       </list>
     </recent_temporary>
