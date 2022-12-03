@@ -35,12 +35,12 @@
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
-            <version>1.7.5</version>
+            <version>2.0.5</version>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-log4j12</artifactId>
-            <version>1.7.5</version>
+            <version>2.0.5</version>
         </dependency>
     </dependencies>
     <build>
@@ -82,7 +82,7 @@
                                     <limits>
                                         <limit>
                                             <counter>LINE</counter>
-                                            <value>COVERED-RATIO</value>
+                                            <value>COVEREDRATIO</value>
                                             <minimum>100%</minimum>
                                         </limit>
                                     </limits>
