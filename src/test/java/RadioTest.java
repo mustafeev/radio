@@ -128,7 +128,7 @@ public class RadioTest {
 
         radio.prevVolume1();
 
-        int expected = 7;
+        int expected = 0;
         int actual = radio.getCurrentVolume();
         Assertions.assertEquals(expected, actual);
     }
@@ -140,7 +140,7 @@ public class RadioTest {
 
         radio.nextVolume1();
 
-        int expected = 9;
+        int expected = 0;
         int actual = radio.getCurrentVolume();
         Assertions.assertEquals(expected, actual);
     }
@@ -164,7 +164,7 @@ public class RadioTest {
 
         radio.prevVolume1();
 
-        int expected = 10;
+        int expected = 0;
         int actual = radio.getCurrentVolume();
         Assertions.assertEquals(expected, actual);
     }
