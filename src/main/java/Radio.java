@@ -6,19 +6,21 @@ public class Radio {
 
     public Radio() {
         maxStation = 9;
-    }
-
-    public void Radio() {
         maxVolume = 10;
     }
 
-    public Radio(int stationCount) {
-        maxStation = stationCount - 1;
-    }
+   // public void Radio() {
 
-    public void Radio(int volumeCount) {
-        maxStation = volumeCount - 1;
-    }
+       // maxVolume = 10;
+   //}
+
+    public Radio(int stationCount) {maxStation = stationCount - 1;}
+
+    public void Radio2 (int volumeCount) {maxVolume = volumeCount - 1;}
+
+    //public void Radio(int volumeCount) {
+        //maxVolume = volumeCount - 1;
+    //}
 
     public void next() {
         if (currentStation < maxStation) {
